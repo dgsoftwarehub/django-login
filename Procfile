@@ -1,0 +1,1 @@
+web: gunicorn simswitch.wsgi --log-file -
