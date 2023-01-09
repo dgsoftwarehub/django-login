@@ -95,7 +95,7 @@ class CreateOrderView(APIView, ABC):
 
 class CreateAppOrderView(IsLoggedIn, CreateOrderView):
     """Handle order creation requests from frontend app."""
-
+    """There is no need to pass Token to complete this project. """
     def set_user(self):
         """Set user for this instance."""
         self.user = self.request.user
