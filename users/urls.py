@@ -7,7 +7,8 @@ from users.views import (
     ProfileUpdateView,
     SignOutView,
     GetAPIKeyView,
-    ChangePasswordView,
+ 
+       ChangePasswordView,
 )
 
 app_name = 'users'
